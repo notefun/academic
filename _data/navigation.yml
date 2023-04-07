@@ -10,8 +10,8 @@ academic-page:
   - title: "Tags & Collections"
     url: /tags/
   - title: "Resumes"
-    url: /resumes/developer?home
+    url: https://notefun.github.io/resumes/developer?home
         
   - title: "Exit"
-    url: /
+    url: https://notefun.github.io/
     
