@@ -1,14 +1,14 @@
 academic-page:
   - title: "Publications"
-    url: /academic/publications/
+    url: /publications/
 
   - title: "Essays"
-    url: /academic/essays/    
+    url: /essays/    
 
   - title: "Projects"
-    url: /academic/projects/    
+    url: /projects/    
   - title: "Tags & Collections"
-    url: /academic/tags/
+    url: /tags/
   - title: "Resumes"
     url: /resumes/developer?home
         

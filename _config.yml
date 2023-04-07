@@ -3,7 +3,7 @@
 
 title: "Wenhan's Home"
 description: "My homepage" # Just for SEO default value.
-url: "https://ivyee17.github.io"
+url: "https://notefun.github.io/academic"
 baseurl:
 google_analytics_key:
 google_maps_javascript_api_key:
@@ -62,35 +62,17 @@ Timezone: Etc/UTC
 collections:
   publications:
     output: true
-    permalink: /academic/:collection/:path/
+    permalink: /:collection/:path/
   essays:
     output: true
-    permalink: /academic/:collection/:title/
-  musics:
-    output: true
-    permalink: /:collection/:path/
-  resumes:
-    output: true
-    permalink: /resumes/:categories/:title/
-  novels:
-    output: true
-    permalink: /proses/:path/
+    permalink: /:collection/:title/
+  
   
 paginate: 10
 paginate_path: "/blog/:num/"
 permalink: pretty
 
 defaults:
-  - scope:
-      path: "_novels/lp"
-      type: novels
-    values:
-      layout: novel-lp
-  - scope:
-      path: "_novels/dp"
-      type: novels
-    values:
-      layout: novel-dp
   - scope:
       path: ""
       type: publications
@@ -112,15 +94,7 @@ defaults:
       type: musics
     values:
       layout: music-page
-  # - scope:
-  #     path: ""
-  #     type: resumes
-  #   values:
-  #     layout: resume-page/template2
-
-
-# ---
-# Jekyll Config
+ 
 
 jekyll-archives:
   enabled:
