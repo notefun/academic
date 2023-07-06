@@ -5,7 +5,12 @@ excerpt: "About me"
 author_profile: true
 layout: academic-page/archive
 ---
+<div class="notice--danger" style="
+    font-size: 14px !important;
+    color: red;
+">As author's graduation, this site was in the final revision and no longer maintained. Congrats!</div>
 <div>
+  
     <h2>Latest Seminars</h2>
     {% assign es =  site.essays | nested_sort:"date" | reverse %}
     {% for post in es  limit: 3 %}
