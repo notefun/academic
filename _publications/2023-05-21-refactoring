@@ -1,0 +1,16 @@
+---
+title: "An architecture refactoring approach to reducing software hierarchy complexity."
+collection: publications
+permalink: /publication/3
+excerpt: 'Software complexity is the very essence of computer programming. As the complexity increases, the potential risks and defects of software systems will increase. This makes the software correctness analysis and the software quality improvement more difficult. In this paper, we present a quantitative metric to describe the complexity of a hierarchical software and a Complexity-oriented Software Architecture Refactoring (CoSSR) approach to reduce the complexity. The main idea is to identify and then reassemble subcomponents into one hierarchical component, which achieves minimum complexity in terms of the solution algorithm. Moreover, our algorithm can be improved by introducing partition constraint, heuristic search strategy, and spectral clustering. We implement the proposed method as an automated refactoring tool and demonstrate our algorithm through a case study of battery management system (BMS). The results show that our approach is more efficient and effective to reduce the complexity of hierarchical software system.'
+date: 2023-05-21
+venue: 'JSE'
+paperurl: 'https://onlinelibrary.wiley.com/doi/abs/10.1002/smr.2573'
+citation: 'Yongxin Zhao, Wenhan Wu, Yuan Fei, Zhihao Liu, Yang Li, Yilong Yang, Ling Shi, Bo Zhang. An architecture refactoring approach to reducing software hierarchy complexity. J Softw Evol Proc. 2023;e2573. doi:10.1002/smr.2573'
+---
+
+{{ page.excerpt }}
+
+[Download paper]({{ page.paperurl }})
+
+Recommended citation: {{ page.citation }}
